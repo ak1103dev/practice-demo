@@ -7,8 +7,11 @@ const Layout = () => {
       <div style={{ display: 'flex', gap: 5 }}>
         <Link to="/">Home</Link>
         <Link to="/rich-menu">Rich Menu</Link>
+        <Link to="/player">Player</Link>
       </div>
-      <Outlet />
+      <div style={{ paddingTop: 20 }}>
+        <Outlet />
+      </div>
     </div>
   )
 }
